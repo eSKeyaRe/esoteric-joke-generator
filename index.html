@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    
     <header>
         <h1>esoteric joke generator</h1>
+        <h3>a full list of jokes can be found in the library of babel</h3>
     </header>
+    <div class="container">
     <section>
-        <p>random quote</p>
-        <p>generate</p>
+        <div class="joke">
+        <p>why did the <span id="noun">blank</span> <span id="verb">blank</span> the <span id="noun2">blank</span>?</p>
+        <p>to get to the other side!</p>
+    </div>
+        <div class="btn-container"><button onclick="generate()"><span  class="fa fa-refresh" ></span>generate</button></div>
     </section>
+    </div>
+    
     <script src="index.js"></script>
 </body>
 </html>
